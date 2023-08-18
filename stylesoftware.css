@@ -14,30 +14,27 @@ a{
 h1{
 
     font-family:'open sans', Helvetica, Arial, sans-serif;
-    font-size: 150%;
-    font-weight: bolder;
+    font-size: 170%;
+    font-weight: 400;
 
-    margin-bottom: -10px;
+    padding-left: 15%;
 
-    color: #002f52;
-    
-}
-
-h1.v{
-
-    font-size: 110%;
-
-    color: #002f52d2;
+    color: #002f52d7;
     
 }
 
 h2{
 
     font-family:'open sans', Helvetica, Arial, sans-serif;
-    font-size: 90%;
-    font-weight: bolder;
+    font-size: 100%;
+    font-weight: 400;
 
-    color: #002f52c9;
+    padding-left: 15%;
+    padding-right: 25%;
+
+    text-align: justify;
+
+    color: #000000c7;
   
 }
 
@@ -46,6 +43,9 @@ p{
     font-family:'open sans', Helvetica, Arial, sans-serif;
     font-weight: justify;
     font-size: 90%;
+
+    padding-left: 22%;
+    margin-top: -20px;
 
     color: #00000077;
   
@@ -74,11 +74,11 @@ header{
   
     transition: 1s;
     
-  }
+}
 
-#logo:hover {
+#logo:hover{
 
-    cursor:url(cursorescudo.png);
+    cursor:url(cursorescudo.png), auto;
   
 }
   
@@ -133,14 +133,6 @@ header{
 
 }
 
-#vimmagini {
-
-    align-content: center;
-
-    padding-top: 20%;
-    padding-bottom: 18%;
-}
-
 #footer{
 
      
@@ -154,59 +146,40 @@ header{
     padding: 3%;
     padding-left: 5%;
 
-    margin-top: 0%;
+    margin-top: 10%;
 
     border-top: 10px solid #005a7eaf;
   
 }
 
-#imgsoftware{
+#space{
 
-    width: auto;
-  height: 100%;
+    padding-top: 13%;
 
-  margin: 0;
+}
 
-  background-image: url(software.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+#me:hover + #text{
 
-  padding-left: 69%;
-  padding-top: 10%;
+    display: block;
 
-  font-size: 600%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  color: white;
+#text{
 
-  text-shadow: 5px 5px 10px #ffffff98;
+    display: none;
+
+}
+
+#reset{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+
+    text-align: left;
+
+    color: #000000c9;
+
+    padding-left: 15%;
   
-  }
-  
-  #imgproducts{
-  
-    width: auto;
-    height: 100%;
-  
-    margin: 0;
-  
-    background-image: url(products.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment:fixed;
-  
-    padding-left: 65%;
-    padding-top: 10%;
-  
-    font-size: 600%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  
-    color: white;
-  
-    text-shadow: 5px 5px 10px #ffffff98;
-  
-  }
+}
   
